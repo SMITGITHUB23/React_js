@@ -1,0 +1,18 @@
+.container{
+    color: white;
+}
+.men11{
+    height: 200px;
+   margin: 2px;
+   
+}
+.allcardmen{
+    margin-left: 10%;
+}
+/* .mainsec{
+    float: left;
+} */
+.mainsec2{
+    /* float: left; */
+    display: flex;
+}

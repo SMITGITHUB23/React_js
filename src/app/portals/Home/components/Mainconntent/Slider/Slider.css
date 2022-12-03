@@ -1,0 +1,26 @@
+.centered{
+    color: white;
+    top: 62%;
+    left: 20%;
+}
+
+.carousel-indicators{
+    animation-name: carousel-indicators;
+    animation-duration: 1.5s;
+
+}
+
+.sl{
+    height: 600px;
+    
+}
+.stk{
+    margin-left: 20%;
+    text-align: center;
+}
+.ed{
+    color: white;
+    top: 62%;
+   left: 90%;
+
+}

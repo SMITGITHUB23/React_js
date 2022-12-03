@@ -1,0 +1,129 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-bottom: 0%;
+}
+.text2211{
+  line-height: 1.5;
+  font-size: 16px;
+  color: #ce882e;
+  
+}
+
+.imgbanner{
+  height: 400px;
+  width: 900px;
+
+}
+.margin-b{
+  margin-bottom: 0% !important;
+}
+
+.imghight{
+  height: 350px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  left: 12%;
+  top: 70%;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  font-size: 2.5em;
+  opacity: 1;
+  
+}
+.womentext{
+  position: absolute;
+  top: 70%;
+  left: 12%;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  font-size: 2.5em;
+  opacity: 1;
+}
+.span1{
+margin: 3%;
+}
+.span1 span{
+  font-size: 3.5rem;
+  background-color: rgb(245, 212, 189);
+  color: rgb(194, 79, 37);
+  border-radius: 0.5rem;
+  padding: 0.1rem 1rem ;
+  margin: 0.1rem;
+  
+}
+.womentext123 a:hover {
+  color: #181717;
+  transition: 0.3s ease;
+  
+}
+.mentext123 a:hover {
+  color: #181717;
+  transition: 0.3s ease;
+  
+}
+.container{
+  position: relative;
+}
+.middle{
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.container:hover .middle{
+  opacity: 1;
+  background-color: rgba(255, 254, 254, 0.411);
+}
+.button-centre{
+  margin-top: 40%;
+  background-color: orangered !important;
+}
+.orange{
+  background-color: rgb(228, 104, 59) !important;
+  margin-top: 80%;
+  border-radius: 4px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ 
+}

@@ -1,0 +1,59 @@
+.header-container {
+  
+  padding: 5px 10px;
+  position: static;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+background-color: white;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px
+}
+
+img {
+ 
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+/* Style the header links */
+.header-container a {
+  float: left;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 7px;
+  gap: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: auto;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+
+  color: rgb(224, 137, 24);
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
