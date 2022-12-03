@@ -23,22 +23,22 @@ const Contact = () => {
     {
       label: "Email",
       name: "email",
-      value: dataform.name,
+      value: dataform.email,
     },
     {
       label: "Address",
       name: "address",
-      value: dataform.name,
+      value: dataform.address,
     },
     {
       label: "City",
       name: "city",
-      value: dataform.name,
+      value: dataform.city,
     },
     {
       label: "Zip",
       name: "zip",
-      value: dataform.name,
+      value: dataform.zipcode,
     },
   ];
 
